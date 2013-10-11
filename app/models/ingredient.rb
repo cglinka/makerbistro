@@ -1,4 +1,4 @@
-class MenuItem < ActiveRecord::Base
+class Ingredient < ActiveRecord::Base
   has_many :recipes
   has_many :ingredients, through: :recipes
 end
